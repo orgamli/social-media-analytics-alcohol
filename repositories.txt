@@ -1,0 +1,5 @@
+praw
+spacy
+networkx
+matplotlib
+vaderSentiment
