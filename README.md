@@ -64,7 +64,13 @@ Data was collected using the Reddit API and modeled as a user interaction networ
 
 ## How to Run
 
-1. Open the notebook in Google Colab  
-2. Install dependencies:
-   ```python
-   !pip install praw spacy networkx matplotlib vaderSentiment
+1. Open sma-code.ipynb in Google Colab  
+2. Set up Reddit API credentials:
+  - Go to reddit.com/prefs/apps and create a new app
+  - Copy your [client_id] and [client_secret]
+  - Update these values in the notebook where PRAW is initialized
+3. Install dependencies:
+     !pip install praw spacy networkx matplotlib vaderSentiment
+
+## Report
+A full written report is available in sma-report.docx, covering the methodology, findings, and conclusions in detail.
