@@ -1,0 +1,16 @@
+# Dependencies for sma-code.ipynb
+# Install with: pip install -r requirements.txt
+# Versions are unpinned; the notebook was developed on the Colab-default versions
+# available in late 2024. Pin specific versions if you need reproducible builds.
+
+praw
+networkx
+python-louvain
+spacy
+nltk
+wordcloud
+pandas
+numpy
+matplotlib
+tqdm
+python-dotenv

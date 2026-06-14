@@ -1,0 +1,18 @@
+# Environment / secrets
+.env
+.env.local
+
+# Data files written by the notebook
+*.csv
+
+# Jupyter / Colab checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Python packaging junk
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
